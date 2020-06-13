@@ -1,0 +1,38 @@
+{% extends 'plans/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Corona Confront</h1>
+<br><br><p class="lead">Although testing is free, many insured people in America still have to pay deductibles if they get coronavirus and require hospital stays.<br><br>
+  <p class="lead">We decided to form a membership nonprofit that reimburses deductibles of members hospitalized due to coronavirus.</p> <br><br>
+
+  <a href="{% url 'get_started' %}"><button type="button" class="btn btn-lg btn-primary">Get Started </button></a> <br> <br> <br> <br>
+
+ <br>
+
+</div>
+<br><br>
+
+<br>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+<img src="{% static "graph.jpeg" %}" width=100% height=auto"></img>
+
+</div>
+<br>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://coronaconfront.com/"><img src="{% static "facebook.png" %}" id="facebook" height="62" width="62"></a> &nbsp;
+
+  <a href="http://www.reddit.com/submit?url=https://coronaconfront.com/&title=Help%20each%20other%20protect%20against%20high%20deductibles%20during%20coronavirus%20pandemic!"><img src="{% static "reddit.png" %}" id="reddit" height="62" width="62"></a> &nbsp;
+
+  <a href="https://mail.google.com/mail/?view=cm&su=Help%20each%20other%20protect%20against%20high%20deductibles%20during%20coronavirus%20pandemic!&body=www.coronaconfront.com"><img src="{% static "gmail.png" %}" id="gmail" height="62" width="62"></a> &nbsp;
+
+  <a href="http://compose.mail.yahoo.com/?subject=Help%20each%20other%20protect%20against%20high%20deductibles%20during%20coronavirus%20pandemic!&body=www.coronaconfront.com"><img src="{% static "yahoo.png" %}" id="yahoo" height="62" width="62"></a><br>
+<br>
+</div>
+
+{% endblock %}
