@@ -35,7 +35,7 @@
       <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="{% url 'get_started' %}">Get Started</a>
         {% if user.is_authenticated %}
-        <a class="p-2 text-dark" href="{% url 'reimburse' %}">Reimburse Me</a>
+        <a class="p-2 text-dark" href="{% url 'reimburse' %}">Hospitalization Data</a>
         <a class="p-2 text-dark" href="{% url 'settings' %}">Settings</a>
         <a class="p-2 text-dark" href="{% url 'logout' %}">Log Out</a>
         {% else %}
